@@ -520,6 +520,13 @@ body:not(.user-is-tabbing) a:focus {
     max-width: 18rem;
 }
 
+
+.work__list {
+    /* list-style-type: square; */
+    list-style-position: inside;
+    margin-bottom: var(--gutter-normal);
+}
+
 @media(max-width: 1240px) {
     .client__logos {
         overflow-x: scroll;
